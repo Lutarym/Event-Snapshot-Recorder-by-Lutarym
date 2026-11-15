@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Event Snapshot Recorder by Lutarym",
+        "description": "Wähle die Klingel, die Kamera und wie lange Kamerabilder gespeichert werden.",
+        "data": {
+          "doorbell_entity": "Klingel Entität",
+          "camera_entity": "Kamera Entität",
+          "retention_days": "Bilder speichern (Tage)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Diese Klingel ist bereits eingerichtet."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Event Snapshot Recorder by Lutarym",
+        "data": {
+          "camera_entity": "Kamera Entität",
+          "retention_days": "Bilder speichern (Tage)"
+        }
+      }
+    }
+  }
+}

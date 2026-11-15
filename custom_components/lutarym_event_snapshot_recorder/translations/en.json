@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Event Snapshot Recorder by Lutarym",
+        "description": "Choose the doorbell, the camera and how long camera images are kept.",
+        "data": {
+          "doorbell_entity": "Doorbell entity",
+          "camera_entity": "Camera entity",
+          "retention_days": "Keep images (days)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This doorbell is already set up."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Event Snapshot Recorder by Lutarym",
+        "data": {
+          "camera_entity": "Camera entity",
+          "retention_days": "Keep images (days)"
+        }
+      }
+    }
+  }
+}

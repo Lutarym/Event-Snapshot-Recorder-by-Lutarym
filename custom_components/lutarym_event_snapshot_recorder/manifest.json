@@ -1,0 +1,13 @@
+{
+  "domain": "lutarym_event_snapshot_recorder",
+  "name": "Event Snapshot Recorder by Lutarym",
+  "codeowners": ["@YOUR_GITHUB_USER"],
+  "config_flow": true,
+  "dependencies": ["http", "websocket_api", "camera"],
+  "documentation": "https://github.com/YOUR_GITHUB_USER/event-snapshot-recorder-by-lutarym",
+  "integration_type": "service",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/YOUR_GITHUB_USER/event-snapshot-recorder-by-lutarym/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
